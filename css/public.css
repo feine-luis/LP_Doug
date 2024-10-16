@@ -1,0 +1,254 @@
+/* Form styling */
+.codcheckout-form-container {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif !important;
+    max-width: 600px !important;
+    margin: 20px auto !important;
+    padding: 30px !important;
+    background-color: #ffffff !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+    border-radius: 8px !important;
+}
+
+.codcheckout-form {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.codcheckout-form label {
+    display: block !important;
+    margin-bottom: 8px !important;
+    font-weight: 600 !important;
+    color: #333333 !important;
+    font-size: 14px !important;
+}
+
+.codcheckout-form .required {
+    color: #e2401c !important;
+}
+
+.codcheckout-form .woocommerce-input-wrapper {
+    display: block !important;
+    width: 100% !important;
+}
+
+.codcheckout-form .form-row {
+    margin-bottom: 20px !important;
+    padding: 0 !important;
+}
+
+.codcheckout-form .form-row-first,
+.codcheckout-form .form-row-last {
+    width: 48% !important;
+    float: left !important;
+}
+
+.codcheckout-form .form-row-last {
+    float: right !important;
+}
+
+.codcheckout-form input[type="text"],
+.codcheckout-form input[type="email"],
+.codcheckout-form input[type="tel"],
+.codcheckout-form input[type="password"],
+.codcheckout-form select,
+.codcheckout-form textarea {
+    width: 100% !important;
+    padding: 12px !important;
+    border: 1px solid #ddd !important;
+    border-radius: 4px !important;
+    background-color: #f8f8f8 !important;
+    font-size: 14px !important;
+    color: #333333 !important;
+    transition: border-color 0.3s ease, background-color 0.3s ease !important;
+}
+
+.codcheckout-form input[type="text"]:focus,
+.codcheckout-form input[type="email"]:focus,
+.codcheckout-form input[type="tel"]:focus,
+.codcheckout-form input[type="password"]:focus,
+.codcheckout-form select:focus,
+.codcheckout-form textarea:focus {
+    border-color: #0073aa !important;
+    background-color: #ffffff !important;
+    outline: none !important;
+}
+
+.codcheckout-form .button {
+    width: 100% !important;
+    padding: 15px 20px !important;
+    border: none !important;
+    border-radius: 4px !important;
+    cursor: pointer !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    transition: background-color 0.3s ease, transform 0.1s ease !important;
+}
+
+.codcheckout-form .button:hover {
+    transform: translateY(-1px) !important;
+}
+
+.codcheckout-form .button:active {
+    transform: translateY(1px) !important;
+}
+
+.codcheckout-terms-conditions {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+
+.codcheckout-terms-conditions label {
+    display: inline-block !important;
+    margin-left: 5px !important;
+    font-weight: normal !important;
+}
+
+.codcheckout-form input[type="checkbox"] {
+    margin-right: 5px !important;
+}
+
+/* COD Checkout Form Message Styling*/
+.codcheckout-cart-message {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.codcheckout-cart-message .button {
+    margin: 10px 5px;
+}
+
+/* Sticky Bar styling */
+.codcheckout-sticky-bar {
+    position: fixed !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    background-color: #ffffff !important;
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.1) !important;
+    z-index: 9999 !important;
+    transition: transform 0.3s ease-in-out !important;
+    transform: translateY(100%) !important;
+    padding: 15px !important;
+}
+
+.codcheckout-sticky-bar.visible {
+    transform: translateY(0) !important;
+}
+
+.codcheckout-sticky-bar-content {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+}
+
+.codcheckout-product-info {
+    display: flex !important;
+    align-items: center !important;
+    flex: 1 !important;
+    min-width: 0 !important; /* Allows text to truncate */
+}
+
+.codcheckout-product-info h3 {
+    margin: 0 15px 0 0 !important;
+    font-size: 16px !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    max-width: 50% !important;
+}
+
+.codcheckout-product-info .price {
+    font-weight: bold !important;
+    white-space: nowrap !important;
+    margin-left: auto !important;
+}
+
+.codcheckout-sticky-button {
+    padding: 10px 20px !important;
+    border: none !important;
+    border-radius: 4px !important;
+    cursor: pointer !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    transition: opacity 0.3s ease !important;
+    margin-left: 15px !important;
+    white-space: nowrap !important;
+}
+
+.codcheckout-sticky-button:hover {
+    opacity: 0.9 !important;
+}
+
+/* Thank You Page Styling */
+.codcheckout-thank-you-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+}
+
+.codcheckout-order-summary {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.codcheckout-order-summary th,
+.codcheckout-order-summary td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.codcheckout-order-summary thead {
+    background-color: #f8f8f8;
+}
+
+.codcheckout-order-summary tfoot {
+    font-weight: bold;
+}
+
+.codcheckout-next-steps {
+    margin-left: 20px;
+}
+
+address {
+    font-style: normal;
+    margin-bottom: 20px;
+}
+
+/* Form Responsive styling */
+@media (max-width: 768px) {
+    .codcheckout-form-container {
+        padding: 20px !important;
+    }
+    .codcheckout-form .form-row-first,
+    .codcheckout-form .form-row-last {
+        width: 100% !important;
+        float: none !important;
+    }
+    .codcheckout-sticky-bar-content {
+        flex-wrap: wrap !important;
+    }
+
+    .codcheckout-product-info {
+        width: 100% !important;
+        margin-bottom: 10px !important;
+    }
+    .codcheckout-product-info h3 {
+        max-width: 70% !important;
+    }
+
+    .codcheckout-sticky-button {
+        width: 100% !important;
+        margin-left: 0 !important;
+    }
+}
